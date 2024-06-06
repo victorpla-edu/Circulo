@@ -33,6 +33,10 @@ public class Circulo {
         return Math.PI * Math.pow(radio, 2);
     }
 
+    /**
+     * @param calcularCircunferencia calcula la circuferencia
+     * @return devuelve el resultado de la operación 2 * PI * radio
+     */
     public double calcularCircunferencia() {
         return 2 * Math.PI * radio;
     }
