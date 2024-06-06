@@ -42,7 +42,7 @@ public class Circulo {
     }
 
     /**
-     * @param getRadio metodo que utiliza la funcíon get
+     * @param getRadio metodo que utiliza la funcíon get con radio
      *
      */
     public double getRadio() {
