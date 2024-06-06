@@ -14,7 +14,7 @@ public class Circulo {
 
     /* Esta clase está descontinuada, se debe usar en su lugar calcularArea() */
     /**
-     * @deprecated calcularArea se debe usar la nueva variable calcularArea
+     * @deprecated se debe usar la nueva variable calcularArea
      */
     public double calculoArea() {
         return Math.PI * Math.pow(radio, 2);
@@ -41,6 +41,10 @@ public class Circulo {
         return 2 * Math.PI * radio;
     }
 
+    /**
+     * @param getRadio metodo que utiliza la funcíon get
+     *
+     */
     public double getRadio() {
         return radio;
     }
