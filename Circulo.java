@@ -1,12 +1,15 @@
 public class Circulo {
+    /**
+     * @param radio la variable radio de la figura
+     */
     private double radio;
 
     public Circulo(double radio) {
         this.radio = radio;
     }
 
-    /*Esta clase está descontinuada, se debe usar en su lugar calcularArea()*/
-     public double calculoArea() {
+    /* Esta clase está descontinuada, se debe usar en su lugar calcularArea() */
+    public double calculoArea() {
         return Math.PI * Math.pow(radio, 2);
     }
 
