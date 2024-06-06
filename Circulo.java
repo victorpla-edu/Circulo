@@ -4,6 +4,10 @@ public class Circulo {
      */
     private double radio;
 
+    /**
+     * 
+     * @param Circulo Pongo el constructor Circulo con la variable radio
+     */
     public Circulo(double radio) {
         this.radio = radio;
     }
