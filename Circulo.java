@@ -49,6 +49,10 @@ public class Circulo {
         return radio;
     }
 
+    /**
+     * 
+     * @param setRadio metodo que utiliza la función set con radio
+     */
     public void setRadio(double radio) {
         this.radio = radio;
     }
